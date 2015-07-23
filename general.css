@@ -1,20 +1,74 @@
+/* *********************************************
+	General
+   *********************************************
+   */
+ 
 body {
 	color: #FFFFFF;
 	background-color: #000000;
-	font-family: sans-serif;
+}
+
+span {
+	font-family: 'Lato', sans-serif;
 	font-size: 100%;
 }
 
-div.splash {
-	padding-top: 100px;
-	width: 1000px;
-	margin: 0 auto;
+#content {
+	width: 900px;
+	position: relative;
+	left: 50%;
+	margin: 0 0 0 -450px;
 }
 
-span.splash {
+/* *********************************************
+	Splash
+	*********************************************
+	*/
+
+div#splash {
+	padding-top: 50px;
+}
+
+span#splashText {
 	color: #FF0000;
 	background-color: #000000;
-	text-align:	center;
-	font-size: 10em;
-	
+	text-align: center;
+	font-size: 7em;
+	font-family: 'Lato', sans-serif;
+	display: block;
 }
+
+/* *********************************************
+	Common
+	*********************************************
+	*/
+	
+div#common {
+	padding-top: 50px;
+	width: 100%
+}
+
+span.commonText {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+	display: block;
+}
+
+/* **********************************************
+	Footer
+	**********************************************
+	*/
+	
+div#footer {
+	padding-top: 100px;
+}
+
+span#footerText {
+	text-align: center;
+	display:	block;
+	font-size: 0.7em;
+	color: rgba(152, 152, 152, 1)
+}
+
+
